@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282B1D65A3D8EFDAC0C6BCE0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E53084DF9394F6CF9E4FCB /* Models.swift */; };
+		382F59B5E87AF1B321EE426C /* ReceiptListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D016329EB2F2FF81CADAE /* ReceiptListView.swift */; };
+		5725D543D79C081AF7B6556D /* ReceiptFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56AC72233B1D565619DF859 /* ReceiptFlowUITests.swift */; };
+		9B64D3EAB85651EC2D99352D /* SplitCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329D3F099D1BF3DA638ABA5 /* SplitCalculatorTests.swift */; };
+		C7595899B19067C428C97D23 /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520CE411385843149D791F7 /* SplitView.swift */; };
+		EB33B60A973D4C2B3B211A11 /* SplitCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2A09880F2D4198044F88E /* SplitCalculator.swift */; };
+		EC3C785D2BCD44E5151E973B /* FairshareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A2F6A889E8F77C834E454 /* FairshareApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		101ADABA179C1DF7346D8783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5367A91229AA36BB4A29615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D74D6C1E6472F066031657A;
+			remoteInfo = Fairshare;
+		};
+		B368285C0A293F2D154E2ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5367A91229AA36BB4A29615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D74D6C1E6472F066031657A;
+			remoteInfo = Fairshare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3079B8BE9C3D610AEAB3C2C8 /* FairshareUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FairshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B2A09880F2D4198044F88E /* SplitCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitCalculator.swift; sourceTree = "<group>"; };
+		5329D3F099D1BF3DA638ABA5 /* SplitCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitCalculatorTests.swift; sourceTree = "<group>"; };
+		60E53084DF9394F6CF9E4FCB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7CF8077608724E21E6B60835 /* FairshareTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FairshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9520CE411385843149D791F7 /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		966A2F6A889E8F77C834E454 /* FairshareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairshareApp.swift; sourceTree = "<group>"; };
+		DE865154C7BEA8835E31B126 /* Fairshare.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Fairshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56AC72233B1D565619DF859 /* ReceiptFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptFlowUITests.swift; sourceTree = "<group>"; };
+		FB6D016329EB2F2FF81CADAE /* ReceiptListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10D3D64B04052AACB0972DEB /* Fairshare */ = {
+			isa = PBXGroup;
+			children = (
+				966A2F6A889E8F77C834E454 /* FairshareApp.swift */,
+				60E53084DF9394F6CF9E4FCB /* Models.swift */,
+				FB6D016329EB2F2FF81CADAE /* ReceiptListView.swift */,
+				46B2A09880F2D4198044F88E /* SplitCalculator.swift */,
+				9520CE411385843149D791F7 /* SplitView.swift */,
+			);
+			path = Fairshare;
+			sourceTree = "<group>";
+		};
+		B1DDEEABBD5E08DD286DD207 /* FairshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				5329D3F099D1BF3DA638ABA5 /* SplitCalculatorTests.swift */,
+			);
+			path = FairshareTests;
+			sourceTree = "<group>";
+		};
+		B6511509A7AE34A9EA73470D = {
+			isa = PBXGroup;
+			children = (
+				10D3D64B04052AACB0972DEB /* Fairshare */,
+				B1DDEEABBD5E08DD286DD207 /* FairshareTests */,
+				F2B632BDFC5458BA4DCEDF11 /* FairshareUITests */,
+				B89454CA4169795C413174D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B89454CA4169795C413174D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE865154C7BEA8835E31B126 /* Fairshare.app */,
+				7CF8077608724E21E6B60835 /* FairshareTests.xctest */,
+				3079B8BE9C3D610AEAB3C2C8 /* FairshareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B632BDFC5458BA4DCEDF11 /* FairshareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F56AC72233B1D565619DF859 /* ReceiptFlowUITests.swift */,
+			);
+			path = FairshareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A893EC89E05B538C528FD9E /* FairshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A81018D9F382BD68BD990BF /* Build configuration list for PBXNativeTarget "FairshareTests" */;
+			buildPhases = (
+				5961F4B23104B30F6A858170 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C1792980DF92A21D9936AB /* PBXTargetDependency */,
+			);
+			name = FairshareTests;
+			packageProductDependencies = (
+			);
+			productName = FairshareTests;
+			productReference = 7CF8077608724E21E6B60835 /* FairshareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D74D6C1E6472F066031657A /* Fairshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60149414499BB5E564702F72 /* Build configuration list for PBXNativeTarget "Fairshare" */;
+			buildPhases = (
+				375D2653F7773439D15B4CB9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fairshare;
+			packageProductDependencies = (
+			);
+			productName = Fairshare;
+			productReference = DE865154C7BEA8835E31B126 /* Fairshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D9E332F7BF970513F4C17A1 /* FairshareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C19B1946E3E6EF322F5B258 /* Build configuration list for PBXNativeTarget "FairshareUITests" */;
+			buildPhases = (
+				6FA7E26AD2113F61B1D328AF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3DC31C90FB4AAFBEB902E7D /* PBXTargetDependency */,
+			);
+			name = FairshareUITests;
+			packageProductDependencies = (
+			);
+			productName = FairshareUITests;
+			productReference = 3079B8BE9C3D610AEAB3C2C8 /* FairshareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5367A91229AA36BB4A29615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9A893EC89E05B538C528FD9E = {
+						DevelopmentTeam = "";
+					};
+					9D74D6C1E6472F066031657A = {
+						DevelopmentTeam = "";
+					};
+					9D9E332F7BF970513F4C17A1 = {
+						DevelopmentTeam = "";
+						TestTargetID = 9D74D6C1E6472F066031657A;
+					};
+				};
+			};
+			buildConfigurationList = B67997B6831EBA0C26CFA654 /* Build configuration list for PBXProject "Fairshare" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B6511509A7AE34A9EA73470D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B89454CA4169795C413174D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D74D6C1E6472F066031657A /* Fairshare */,
+				9A893EC89E05B538C528FD9E /* FairshareTests */,
+				9D9E332F7BF970513F4C17A1 /* FairshareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375D2653F7773439D15B4CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3C785D2BCD44E5151E973B /* FairshareApp.swift in Sources */,
+				282B1D65A3D8EFDAC0C6BCE0 /* Models.swift in Sources */,
+				382F59B5E87AF1B321EE426C /* ReceiptListView.swift in Sources */,
+				EB33B60A973D4C2B3B211A11 /* SplitCalculator.swift in Sources */,
+				C7595899B19067C428C97D23 /* SplitView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961F4B23104B30F6A858170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B64D3EAB85651EC2D99352D /* SplitCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA7E26AD2113F61B1D328AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5725D543D79C081AF7B6556D /* ReceiptFlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2C1792980DF92A21D9936AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D74D6C1E6472F066031657A /* Fairshare */;
+			targetProxy = B368285C0A293F2D154E2ED5 /* PBXContainerItemProxy */;
+		};
+		E3DC31C90FB4AAFBEB902E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D74D6C1E6472F066031657A /* Fairshare */;
+			targetProxy = 101ADABA179C1DF7346D8783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E286649F1B62BCCB0623017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = Fairshare;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fairshare.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A47C99C7E36003F70993C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 412;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 2.3.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		290877D8429775134593261B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 412;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 2.3.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		624D45167CAD1B69F174E8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fairshare.FairshareTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fairshare.app/Fairshare";
+			};
+			name = Release;
+		};
+		7C23D1144682F1277A194F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fairshare.FairshareUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fairshare;
+			};
+			name = Debug;
+		};
+		B4FFF88BA4F45E5F6FB65390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = Fairshare;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fairshare.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFBDDCAD73679139C43C06EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fairshare.FairshareUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fairshare;
+			};
+			name = Release;
+		};
+		F32A42C6EC6EC027DE11EA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.fairshare.FairshareTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fairshare.app/Fairshare";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A81018D9F382BD68BD990BF /* Build configuration list for PBXNativeTarget "FairshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A42C6EC6EC027DE11EA53 /* Debug */,
+				624D45167CAD1B69F174E8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C19B1946E3E6EF322F5B258 /* Build configuration list for PBXNativeTarget "FairshareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C23D1144682F1277A194F55 /* Debug */,
+				CFBDDCAD73679139C43C06EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60149414499BB5E564702F72 /* Build configuration list for PBXNativeTarget "Fairshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E286649F1B62BCCB0623017 /* Debug */,
+				B4FFF88BA4F45E5F6FB65390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B67997B6831EBA0C26CFA654 /* Build configuration list for PBXProject "Fairshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290877D8429775134593261B /* Debug */,
+				22A47C99C7E36003F70993C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5367A91229AA36BB4A29615 /* Project object */;
+}

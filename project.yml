@@ -1,0 +1,42 @@
+name: Fairshare
+options:
+  bundleIdPrefix: dev.fairshare
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "2.3.0"
+    CURRENT_PROJECT_VERSION: "412"
+    GENERATE_INFOPLIST_FILE: YES
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGNING_ALLOWED: NO
+targets:
+  Fairshare:
+    type: application
+    platform: iOS
+    sources: [Fairshare]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.fairshare.app
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Fairshare
+  FairshareTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [FairshareTests]
+    dependencies:
+      - target: Fairshare
+  FairshareUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [FairshareUITests]
+    dependencies:
+      - target: Fairshare
+schemes:
+  Fairshare:
+    build:
+      targets:
+        Fairshare: all
+    test:
+      targets: [FairshareTests, FairshareUITests]
