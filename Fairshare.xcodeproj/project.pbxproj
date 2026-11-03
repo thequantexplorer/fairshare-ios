@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		282B1D65A3D8EFDAC0C6BCE0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E53084DF9394F6CF9E4FCB /* Models.swift */; };
 		382F59B5E87AF1B321EE426C /* ReceiptListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D016329EB2F2FF81CADAE /* ReceiptListView.swift */; };
+		4CF7D3A13CE64FA74F3094F2 /* ReceiptStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5945C52F5CD920A05BCCF08F /* ReceiptStoreTests.swift */; };
 		5725D543D79C081AF7B6556D /* ReceiptFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56AC72233B1D565619DF859 /* ReceiptFlowUITests.swift */; };
 		9B64D3EAB85651EC2D99352D /* SplitCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329D3F099D1BF3DA638ABA5 /* SplitCalculatorTests.swift */; };
 		C7595899B19067C428C97D23 /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520CE411385843149D791F7 /* SplitView.swift */; };
@@ -37,6 +38,7 @@
 		3079B8BE9C3D610AEAB3C2C8 /* FairshareUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FairshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B2A09880F2D4198044F88E /* SplitCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitCalculator.swift; sourceTree = "<group>"; };
 		5329D3F099D1BF3DA638ABA5 /* SplitCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitCalculatorTests.swift; sourceTree = "<group>"; };
+		5945C52F5CD920A05BCCF08F /* ReceiptStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptStoreTests.swift; sourceTree = "<group>"; };
 		60E53084DF9394F6CF9E4FCB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		7CF8077608724E21E6B60835 /* FairshareTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FairshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9520CE411385843149D791F7 /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		B1DDEEABBD5E08DD286DD207 /* FairshareTests */ = {
 			isa = PBXGroup;
 			children = (
+				5945C52F5CD920A05BCCF08F /* ReceiptStoreTests.swift */,
 				5329D3F099D1BF3DA638ABA5 /* SplitCalculatorTests.swift */,
 			);
 			path = FairshareTests;
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF7D3A13CE64FA74F3094F2 /* ReceiptStoreTests.swift in Sources */,
 				9B64D3EAB85651EC2D99352D /* SplitCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
