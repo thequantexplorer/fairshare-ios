@@ -28,6 +28,7 @@ struct SplitView: View {
                                 store.removeParticipant(name, from: receipt.id)
                             }
                             .buttonStyle(.borderless)
+                            .disabled(receipt.participants.count <= 1)
                             .accessibilityIdentifier("remove-\(name)")
                         }
                     }

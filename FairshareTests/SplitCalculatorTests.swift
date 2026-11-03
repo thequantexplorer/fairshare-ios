@@ -9,4 +9,8 @@ final class SplitCalculatorTests: XCTestCase {
     func testFormatsUSD() {
         XCTAssertTrue(SplitCalculator.format(cents: 6400).contains("64.00"))
     }
+
+    func testShareWithNoParticipantsIsFullTotal() {
+        XCTAssertEqual(SplitCalculator.share(totalCents: 6400, participants: []), 6400)
+    }
 }

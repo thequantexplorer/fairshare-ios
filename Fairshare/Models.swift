@@ -35,8 +35,11 @@ final class ReceiptStore {
                 participants: ["Maya", "Omar"]),
     ]
 
+    /// Removes `name` from the receipt, unless that would leave it with no one to split with.
     func removeParticipant(_ name: String, from receiptID: String) {
         guard let index = receipts.firstIndex(where: { $0.id == receiptID }) else { return }
-        receipts[index].participants.removeAll { $0 == name }
+        let remaining = receipts[index].participants.filter { $0 != name }
+        guard !remaining.isEmpty else { return }
+        receipts[index].participants = remaining
     }
 }
